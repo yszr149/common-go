@@ -11,7 +11,7 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-func get() {
+func Get() {
 	// 和服务端建立连接
 	url := "wss://wsaws.okx.com:8443/ws/v5/public"
 	log.Printf("connecting to %s", url)
